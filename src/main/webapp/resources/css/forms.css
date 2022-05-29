@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    background-color: #5372F0;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    transition: all 1s ease 0.3s;
+}
+.card h1{
+    color: #21e6c2;
+    background-color: transparent;
+
+    font-weight: 700;
+}
+
+.box{
+    display: grid;
+    place-items: center;
+
+    width: 360px;
+    background-color:#edf0f1f6;
+    height: 450px;
+    padding: 40px 40px;
+    border-radius: 10px;
+    
+}
+
+.box input{
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+    border-bottom: 2px solid #adadad;
+    transition: all 0.5s ease 0s;
+}
+
+.box input:focus{
+    font-size: 15px;
+    border-bottom-color: #21e6c2;
+}
+
+.card button{
+    font-size: 18px;
+    color: #f2f2f2;
+    background-color: #5372F0;
+    
+    padding:0.5rem 1rem;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 50px;
+    transition: all 0.5s ease 0s;
+}
+
+.card button:hover{
+    font-size: 20px;
+    background-color: #21e6c2;
+}
+
+.card a{
+    font-size: 11px;
+    background: none;
+}
+
+i{
+	color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s ease 0s;
+}

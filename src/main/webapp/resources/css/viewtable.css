@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Libre+Bodoni:wght@500&family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+body{
+    background-color:#5372F0;
+    
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: #1b1b1bf0;
+    box-shadow: 0px 0px 10px ;
+}
+
+
+.logo{
+    font-family: 'Poppins';
+    color: #21e6c2;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0px 20px;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    
+    display: block;
+    color: #e5e5e5;
+    font-size: 18px;
+    margin-right: 3rem;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+nav ul li a:hover {
+    color: #21e6c2;
+    /* color: #ffffff85; */
+}
+
+button{
+    font-size: 18px;
+    color: #f2f2f2;
+    background-color: #5372F0;
+    margin-right: 2rem;
+    padding:0.5rem 1rem;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #5372f0e4;
+}
+/*Navigation bar ends*/
+
+.div-table{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.styled-table {
+    border-collapse: collapse;
+    margin-top: 50px;
+    font-size: 0.9em;
+    font-family: 'Montserrat';
+    max-width: 100vh;   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease 0s;
+}
+.styled-table thead tr {
+    background-color: #21e6c2;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 15px 18px;
+}
+
+.styled-table tbody tr {
+    border-bottom: thin solid #dddddd;
+    background-color: #ffffffda;
+    font-size: 1rem;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f2f2f2c5;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #21e6c2;
+}
+
+.add-button{
+    font-size: 35px;
+    padding: 10px 40px;
+    background-color: #21e6c2;
+    transition: all 0.5s ease 0s;
+}
+.add-button:hover {
+    background-color: #21e6c2d6;
+}
