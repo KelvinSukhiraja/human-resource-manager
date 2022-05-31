@@ -38,9 +38,9 @@ public class AppConfig implements WebMvcConfigurer{
 	DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		
-		dataSource.setUsername("root");
-		dataSource.setPassword("kelvin");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/humanresource?useSSL=false"); 
+		dataSource.setUsername("b7bf86914816f6");
+		dataSource.setPassword("d6fb7187");
+		dataSource.setUrl("jdbc:mysql://us-cdbr-east-05.cleardb.net/heroku_9436fe13de8907d?password=d6fb7187&reconnect=true&user=b7bf86914816f6"); 
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		
 		return dataSource;
