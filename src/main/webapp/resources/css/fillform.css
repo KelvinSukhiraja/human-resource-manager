@@ -140,7 +140,6 @@ button:hover {
 div.rad{
     display: flex;
     flex-direction: row;
-    width: 50vh;
     justify-content: space-evenly;
 }
 
