@@ -8,11 +8,11 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Add Job</title>
-<link rel="stylesheet" href="/human-resource-management/static/css/fillform.css"> 
+<link rel="stylesheet" href="/static/css/fillform.css"> 
 </head>
 <body>
 <nav>
-		<a href="/human-resource-management/" class="logo">Human-Resource</a>
+		<a href="/" class="logo">Human-Resource</a>
 		<ul>
 			<sec:authorize access='hasAuthority("ADMIN")'>
 				<li><a href="showUser">User</a></li>

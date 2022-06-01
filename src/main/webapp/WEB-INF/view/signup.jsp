@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Sign Up</title>
 <link rel="stylesheet"
-	href="/human-resource-management/static/css/forms.css">
+	href="/static/css/forms.css">
 </head>
 <body>
 <div class="card">

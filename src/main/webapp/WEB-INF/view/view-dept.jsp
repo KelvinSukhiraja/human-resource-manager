@@ -10,11 +10,11 @@
 <meta charset="ISO-8859-1">
 <title>Department View</title>
 <link rel="stylesheet"
-	href="/human-resource-management/static/css/viewtable.css">
+	href="/static/css/viewtable.css">
 </head>
 <body>
 	<nav>
-		<a href="/human-resource-management/" class="logo">Human-Resource</a>
+		<a href="/" class="logo">Human-Resource</a>
 		<ul>
 			<sec:authorize access='hasAuthority("ADMIN")'>
 				<li><a href="showUser">User</a></li>
