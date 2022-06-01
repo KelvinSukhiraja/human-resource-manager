@@ -10,11 +10,11 @@
 <meta charset="ISO-8859-1">
 <title>Employee View</title>
 <link rel="stylesheet"
-	href="/human-resource-management/static/css/viewtable.css">
+	href="/static/css/viewtable.css">
 </head>
 <body>
 	<nav>
-		<a href="/human-resource-management/" class="logo">Human-Resource</a>
+		<a href="/" class="logo">Human-Resource</a>
 		<ul>
 			<sec:authorize access='hasAuthority("ADMIN")'>
 				<li><a href="showUser">User</a></li>
@@ -71,9 +71,9 @@
 
 						<sec:authorize access='hasAuthority("ADMIN")'>
 							<td><a
-								href="/human-resource-management/updateEmployee?employeeId=${employee.employee_id}">Update</a></td>
+								href="/updateEmployee?employeeId=${employee.employee_id}">Update</a></td>
 							<td><a
-								href="/human-resource-management/deleteEmployee?employeeId=${employee.employee_id}"
+								href="/deleteEmployee?employeeId=${employee.employee_id}"
 								onclick="if(!(confirm('Are you sure?'))) return false">Delete</a></td>
 						</sec:authorize>
 					</tr>

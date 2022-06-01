@@ -10,11 +10,11 @@
 <meta charset="ISO-8859-1">
 <title>User View</title>
 <link rel="stylesheet"
-	href="/human-resource-management/static/css/viewtable.css">
+	href="/static/css/viewtable.css">
 </head>
 <body>
 	<nav>
-		<a href="/human-resource-management/" class="logo">Human-Resource</a>
+		<a href="/" class="logo">Human-Resource</a>
 		<ul>
 			<sec:authorize access='hasAuthority("ADMIN")'>
 				<li><a href="showUser">User</a></li>
@@ -35,7 +35,6 @@
 				<tr>
 					<td>Name</td>
 					<td>Username</td>
-					<td>Password</td>
 					<td>Creation Time</td>
 				</tr>
 			</thead>
@@ -43,7 +42,6 @@
 				<tr>
 					<td>${user.name}</td>
 					<td>${user.username}</td>
-					<td>${user.password}</td>
 					<td>${user.created_date}</td>
 				</tr>
 			</c:forEach>

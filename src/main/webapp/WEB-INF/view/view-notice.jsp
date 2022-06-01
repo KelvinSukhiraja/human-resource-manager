@@ -10,11 +10,11 @@
 <meta charset="ISO-8859-1">
 <title>Notice View</title>
 <link rel="stylesheet"
-	href="/human-resource-management/static/css/viewtable.css">
+	href="/static/css/viewtable.css">
 </head>
 <body>
 	<nav>
-		<a href="/human-resource-management/" class="logo">Human-Resource</a>
+		<a href="/" class="logo">Human-Resource</a>
 		<ul>
 			<sec:authorize access='hasAuthority("ADMIN")'>
 				<li><a href="showUser">User</a></li>
@@ -56,9 +56,9 @@
 					<td>${notice.notice_publisher}</td>
 					<sec:authorize access='hasAuthority("ADMIN")'>
 						<td><a
-							href="/human-resource-management/updateNotice?noticeId=${notice.idnotices}">Update</a></td>
+							href="/updateNotice?noticeId=${notice.idnotices}">Update</a></td>
 						<td><a
-							href="/human-resource-management/deleteNotice?noticeId=${notice.idnotices}"
+							href="/deleteNotice?noticeId=${notice.idnotices}"
 							onclick="if(!(confirm('Are you sure?'))) return false">Delete</a></td>
 					</sec:authorize>
 				</tr>

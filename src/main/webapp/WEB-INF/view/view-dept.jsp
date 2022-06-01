@@ -54,9 +54,9 @@
 						<td>${dept.dept_details}</td>
 						<sec:authorize access='hasAuthority("ADMIN")'>
 							<td><a
-								href="/human-resource-management/updateDept?deptId=${dept.id}">Update</a></td>
+								href="/updateDept?deptId=${dept.id}">Update</a></td>
 							<td><a
-								href="/human-resource-management/deleteDept?deptId=${dept.id}"
+								href="/deleteDept?deptId=${dept.id}"
 								onclick="if(!(confirm('Are you sure?'))) return false">Delete</a></td>
 						</sec:authorize>
 					</tr>
