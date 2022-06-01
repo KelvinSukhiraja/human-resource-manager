@@ -8,7 +8,7 @@
 <meta charset="ISO-8859-1">
 <title>Login</title>
 <link rel="stylesheet"
-	href="/human-resource-management/static/css/forms.css">
+	href="/static/css/forms.css">
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 			<input type="text" name="username" placeholder="Username">
 			<input type="password" name="password" placeholder="Password">
 			<button type="Submit">Submit</button>
-			<a href="/human-resource-management/signup">Don't have an
+			<a href="/signup">Don't have an
 				account?</a>
 		</form:form>
 	</div>
